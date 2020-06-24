@@ -1,0 +1,29 @@
+/* Projeto audio e Lista*/
+.principal img{
+    width: 50%;
+    margin:20px 0 20px 50px;
+
+}
+/* Audio */
+.imagemwhatsapp {
+    width: 50%;
+    margin:20px 0 20px 300px;
+}
+/* Audio e Lista*/
+.principal h1{
+    margin-left: 50px;
+}
+.principal h2{
+    margin-left: 50px;
+}
+/* Audio e Lista */
+.principal p{
+    line-height: 40px;
+    text-align: justify;
+    margin-left: 50px;
+    
+}
+.calculadora{
+    width: 100%;
+    margin-left: 250px;
+}
