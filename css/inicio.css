@@ -14,6 +14,9 @@ body{
     background-color: #2b2b2b;
     color: white;
     height: 50px;
+
+    animation-name: navegacao;
+    animation-duration: 2s;
 }
 .menu ul{
     margin-top: 0;
@@ -56,6 +59,9 @@ body{
 .foto-capa{
     width: 40%;
     text-align: center;
+
+    animation-name: fotos-capas;
+    animation-duration: 4s;
 }
 .foto-capa img{
     width: 300px;
@@ -65,6 +71,9 @@ body{
 .capa-titulo{
     vertical-align: top;
     width: 59%;
+
+    animation-name: titulo-capa;
+    animation-duration: 4s;
 }
 
 .capa-titulo h1{
@@ -85,8 +94,15 @@ body{
 .menu li.line {
     display: none;
 }
+.menu li.line:hover{
+    color: #f27609;
+    cursor: pointer;
+}
 .principal{
   padding: 80px 180px 80px 80px;
+
+  animation-name: projeto;
+    animation-duration: 3s;
 }
 .principal img.pic{
     width: 200px;
@@ -160,9 +176,11 @@ body{
     background-color: black;
     opacity: 0;
     padding-top: 100px;
+    transition: 1s;
 }
 .blackbox:hover{
-opacity:0.8;
+    opacity:0.8;
+    transition: 2s;
 }
 
 .blackbox-texto{
@@ -182,4 +200,127 @@ opacity:0.8;
 .backlink {
     color: #f27609;
     
+}   
+
+
+@keyframes fotos-capas{
+    0% {opacity:0; transform:translate(0px,100px)}
+    100% {opacity:1; transform: translate(0px,0px)}
 }
+
+@keyframes titulo-capa{
+    0% {opacity:0; transform:translate(0px,-100px)}
+    100% {opacity:1; transform: translate(0px,0px)}
+}
+
+@keyframes navegacao{
+    0%{opacity: 0}
+    50%{opacity:0}
+    100%{opacity: 1}
+}
+/* Portfolio */
+@keyframes projeto{
+    0% {opacity:0; transform:translate(100px,0px)}
+    100% {opacity:1; transform: translate(0px,0px)}
+}
+
+
+@media (max-width:1000px){
+/* Inicio */
+.menu li {
+    display: none;
+}
+
+.menu li.line {
+    display: inline-block;
+}
+
+.capa div {
+    display: inline-block;
+    height: auto;
+}
+
+.foto-capa{
+    width: 100%;
+    background-color:; 
+}
+
+.capa-titulo{
+    width: 100%;
+    background-color:;
+    text-align: center;
+}
+
+.foto-capa img{
+    margin-top: 60px;
+    max-width: 100%;
+}
+
+.capa-titulo h1{
+    margin-top: 50px;
+    font-size: 29px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: ;
+}
+
+.capa-titulo h2{
+    margin: 20px 40px 0 40px;
+    background-color:;
+    font-size: 20px;
+}
+
+/*Currículo */
+
+.principal{
+    padding: 10px 5%px 30px 5%px;
+    background-color:;
+  
+    animation-name: projeto;
+      animation-duration: 3s;
+}
+
+.principal p{
+    text-align: left;
+    line-height: 40px;
+
+}
+
+.caminho li{
+    font-size: 16px;
+}
+
+.principal img.pic{
+    max-width: 100%;
+    float:none;
+
+}
+
+.miniatura{
+    max-width: 100%;
+    background-size: 100% 100%;
+}
+.blackbox{
+    opacity: 0.8;
+
+}
+
+.menujs{
+    height: auto;
+}
+.menujs ul{
+    height: auto;
+    text-align: center;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+.menujs li{
+    display: block;
+    border-bottom: solid grey 1px;
+    width: 100%;
+    padding: 0;
+}
+
+
+}
+
