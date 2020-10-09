@@ -1,11 +1,11 @@
-# Portfolio
- Meu portfolio comprovando a minha skill
+<h1> Portfolio </h1>
+ <h3>Meu portfolio comprovando a minha skill</h3>
 
-Este é meu portfolio, feito com HTML/CSS/JS
-Nele contém todas informações necessárias sobre mim.
+<p>Este é meu portfolio, feito com HTML/CSS/JS
+Nele contém todas informações necessárias sobre mim.</p>
 
+<p> * Responsivo </p>
 
-Alterações feitas para terminar o portfolio.
- 23/06/2020 a 24/06/2020 - Inicio 22:00 Término as 04:27.
- 
- 29/06/2020 - Alterações gerais para a responsividade no mobile.
+<img src="port.png">
+
+<a href="https://www.youtube.com/watch?v=fX-legWsgu8"> Vídeo do Portfolio </a>
